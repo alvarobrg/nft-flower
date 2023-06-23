@@ -20,7 +20,7 @@ contract Flower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     uint256 lastTimeStamp;
     uint256 interval;
 
-    constructor(uint _interval) ERC721("Flower Bootcamp Portugues", "FLO") {
+    constructor(uint _interval) ERC721("Flower Bootcamp Portugues", "FLOWER") {
         interval = _interval;
         lastTimeStamp = block.timestamp;
     }
